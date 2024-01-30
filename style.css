@@ -1,0 +1,146 @@
+body{
+    font-family: 'Poppins';
+}
+.logo {
+    width: 150px;
+    margin: 0px 20px;
+}
+
+.navbar {
+    border-bottom: #0e6d6f42 solid 1px !important;
+    border-bottom: #95b0b130 solid 1px !important;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.nav-item.active {
+    background: #0e6d6f !important;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.tag-head {
+    font-size: 3em;
+    line-height: 60px;
+}
+
+.tag-img {
+    overflow: hidden;
+}
+
+.tag-img img {
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.tag-img img:hover {
+    scale: 1.05;
+}
+
+.btn-consult {
+    width: 15em !important;
+    height: 3em;
+    font-size: 1.1em;
+    background: #95B0B1;
+    color: #2a3232;
+}
+.btn-consult:hover{
+    color: black !important;
+}
+
+.home-testimonial {
+    /* background-color: #231834; */
+    background-color: #95B0B1;
+    height: 380px
+}
+
+.home-testimonial-bottom {
+    background-color: #0e6d6f;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px
+}
+
+.home-testimonial h3 {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.testimonial-inner {
+    position: relative;
+    top: -174px
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 5px;
+    padding: 40px
+}
+
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+
+
+@media screen and (width < 992px) {
+    .tag-line{
+        display: none;
+    }
+}
+@media screen and (width < 768px) {
+    .tag-line{
+        display: none;
+    }
+}
+
+@keyframes body-background {
+    0% {
+        background-position: 0vmin 0vmin;
+    }
+
+    100% {
+        background-position: 5vmin 5vmin;
+    }
+
+}
